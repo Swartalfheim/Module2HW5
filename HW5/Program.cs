@@ -1,10 +1,13 @@
-﻿namespace HW5
+﻿using HWen;
+
+namespace HW5
 {
-    internal class Program
+    public class Program
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            Starter starter = new Starter();
+            starter.Run();
         }
     }
 }
